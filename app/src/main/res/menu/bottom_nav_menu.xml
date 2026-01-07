@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/habitsFragment"
+        android:title="Habits"
+        android:icon="@drawable/ic_habit"/>
+
+    <item
+        android:id="@+id/tasksFragment"
+        android:title="Tasks"
+        android:icon="@drawable/ic_task"/>
+
+    <item
+        android:id="@+id/calendarFragment"
+        android:title="Calendar"
+        android:icon="@drawable/ic_calendar"/>
+
+    <item
+        android:id="@+id/progressFragment"
+        android:title="Progress"
+        android:icon="@drawable/ic_progress"/>
+
+</menu>

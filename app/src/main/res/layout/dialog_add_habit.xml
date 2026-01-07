@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/habitTitle"
+        android:hint="Habit name"
+        android:background="@drawable/bg_input"
+        android:padding="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/habitTime"
+        android:hint="Reminder time"
+        android:focusable="false"
+        android:clickable="true"
+        android:background="@drawable/bg_input"
+        android:padding="14dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

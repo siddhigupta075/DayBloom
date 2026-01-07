@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/taskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task title"
+        android:background="@drawable/bg_input"
+        android:padding="14dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/taskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:textSize="15sp"
+        android:background="@drawable/bg_input"
+        android:padding="14dp"
+        android:minLines="2"
+        android:gravity="top"
+        android:layout_marginBottom="12dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Select date"
+        android:textSize="16sp"
+        android:textColor="@color/buttonText"
+        android:layout_marginTop="20dp"
+        app:backgroundTint="@color/buttonPrimary"
+        app:cornerRadius="28dp"
+        app:rippleColor="@color/buttonPrimary"
+        android:enabled="true"/>
+
+
+    <Button
+        android:id="@+id/timeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Select time"
+        android:textSize="16sp"
+        android:textColor="@color/buttonText"
+        android:layout_marginTop="2dp"
+        app:backgroundTint="@color/buttonPrimary"
+        app:cornerRadius="28dp"
+        app:rippleColor="@color/buttonPrimary"
+        android:enabled="true"/>
+</LinearLayout>

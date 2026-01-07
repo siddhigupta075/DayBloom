@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#121212</color>
+    <color name="card">#1E1E1E</color>
+    <color name="input">#2A2A2A</color>
+
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#B0B0B0</color>
+    <color name="primary">#9AA2FF</color>
+    <color name="primaryLight">#2A2E6E</color>
+
+
+    <color name="accent">#7B7CFF</color>
+    <color name="buttonPrimary">#1E1E1E</color>
+    <color name="buttonText">#FFFFFF</color>
+
+    <color name="icon">#CFCFCF</color>
+    <color name="eventDot">#7B7CFF</color>
+    <color name="success">#81C784</color>
+    <color name="warning">#FFB74D</color>
+    <color name="card_bg">#1E1E1E</color>
+    <color name="app_bg_light">#120012</color>
+
+
+</resources>

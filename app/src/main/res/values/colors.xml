@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Background -->
+    <color name="bg">#FFF6FA</color> <!-- soft pastel pink -->
+
+    <!-- Cards -->
+    <color name="card">#FFFFFF</color>
+
+    <!-- Input fields -->
+    <color name="input">#F4F5F7</color>
+
+    <!-- Text -->
+    <color name="textPrimary">#2B2B2B</color>
+    <color name="primary">#7B83FF</color>
+    <color name="textSecondary">#7A7A7A</color>
+    <color name="primaryLight">#DDE0FF</color>
+
+    <!-- Accent / Primary -->
+    <color name="accent">#7B7CFF</color>
+
+    <!-- Buttons -->
+    <color name="buttonPrimary">#D3AAD3</color>
+    <color name="buttonText">#FFFFFF</color>
+
+    <!-- Icons -->
+    <color name="icon">#5F5F5F</color>
+
+    <!-- Calendar / Highlights -->
+    <color name="eventDot">#7B7CFF</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="card_bg">#D3CCD3</color>  <!-- soft grey -->
+    <color name="app_bg_light">#FAF7FB</color>
+
+
+
+
+</resources>
